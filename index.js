@@ -69,4 +69,4 @@ process.on("uncaughtException", (err, origin) => {
     console.log(err, origin)
 })
 
-client.login(token);
+client.login(process.env.token);
